@@ -1,0 +1,14 @@
+body {
+	margin: 0 auto;
+	max-width: 64em;
+	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	line-height: 1.5;
+	padding: 4em 1em;
+	color: #555;
+}
+
+h1,
+label,
+legend {
+	color: #333;
+}
