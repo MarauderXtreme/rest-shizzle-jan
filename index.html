@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Jans REST shizzle</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="assets/app.css" />
+	</head>
+	<body>
+		<main>
+			<h1>Jans REST shizzle</h1>
+			<form id="rest-form" action="http://192.168.12.12:8668/link" method="POST" accept-charset="UTF-8">
+				<fieldset>
+					<legend>Demonstration</legend>
+					<p>
+						<label>
+							Color:
+							<select id="color" name="color">
+								<option style="color: blue" value="blue">Blue</option>
+								<option style="color: orange" value="orange">Orange</option>
+								<option style="color: purple" value="purple">Purple</option>
+								<option style="color: green" value="green">Green</option>
+								<option style="color: silver" value="silver">Silver</option>
+							</select>
+						</label>
+					</p>
+					<p>
+						<label>
+							Coffee:
+							<select id="coffee" name="coffee">
+								<option value="Espresso">Espresso</option>
+								<option value="Cappuccino">Cappuccino</option>
+								<option value="Coffee">Coffee</option>
+								<option value="Lattee">Lattee</option>
+								<option value="Water">Water</option>
+								<option value="Whipped">Whipped</option>
+							</select>
+						</label>
+					</p>
+					<p>
+						<small>Please make your selections.</small>
+					</p>
+					<p>
+						<input id="rest-submit" type="submit" value="Submit" />
+					</p>
+				</fieldset>
+			</form>
+		</main>
+		<script type="text/javascript" src="assets/app.js"></script>
+	</body>
+</html>
