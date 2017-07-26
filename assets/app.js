@@ -1,5 +1,5 @@
 function rest_in_peace(color, coffee, method, action) {
-	
+
 	var rest = JSON.stringify({Color:color, Coffee:coffee});
 	var xmlhttp = new XMLHttpRequest();
 
@@ -9,9 +9,9 @@ function rest_in_peace(color, coffee, method, action) {
 }
 
 window.onload = function() {
-	
+
 	var submit_element = document.getElementById('rest-submit');
-	
+
 	submit_element.onclick = function() {
 		var color		= document.getElementById('color').value;
 		var coffee	= document.getElementById('coffee').value;
